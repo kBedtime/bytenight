@@ -1,0 +1,16 @@
+#!/bin/sh
+# Removes what Ammonia's package installed. Tweaks that other packages or people put in
+# /private/var/ammonia/core/tweaks are left alone, and so are the boot-args flag and the
+# library validation setting, as Ammonia's own uninstaller does.
+PATH=/usr/bin:/bin:/usr/sbin:/sbin
+case "$1" in
+    remove|purge)
+        CORE=/private/var/ammonia/core
+        rm -f /Library/LaunchDaemons/com.bedtime.ammonia.plist
+        rm -f "$CORE/ammonia" "$CORE/fridagum.dylib" "$CORE/liblibinfect.dylib" "$CORE/libopener.dylib"
+        rmdir "$CORE/tweaks" "$CORE/gui" "$CORE/daemons" "$CORE" /private/var/ammonia 2>/dev/null
+        pkgutil --forget net.bedtime.ammonia >/dev/null 2>&1
+        echo "Ammonia is removed. Restart your Mac to finish."
+        ;;
+esac
+exit 0

@@ -1,0 +1,22 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "",
+  "tintColor": "#2BB673",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "@screenshots"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Lisa themes macOS with CSS. Every AppKit control, title bar, sidebar, menu and symbol in every app is drawn from a stylesheet you can write, share and change live.\n\n**Eleven themes included:** Catalina, Celadon, Blueprint, Lacquer, Riso, Aurora, Cassette, Paperwork, Nocturne, Moss and Synth, each with light and dark versions.\n\n**Lisa Editor** shows a live window drawn by real AppKit, with an inspector for every control and state, pages for window buttons and window masks, a glyph browser and the CSS.\n\n**Command line:** `lisa themes`, `lisa use <name>`, `lisa check <file>`.\n\n### After installing\nLog out and back in, then pick a theme in Lisa Editor or with `lisa use Celadon`. Apps you open afterwards are themed.\n\n### What it changes\n- Installs the `com.lisa.monalisad` background service, which renders themes for every app.\n- Turns off SwiftUI's new design system-wide (the `SwiftUI/Solarium` feature flag) so apps use the layout Lisa themes. Removing Lisa turns it back on.\n- Your own themes go in `/Users/Shared/Lisa/Themes` and are kept if you remove Lisa.\n\n### Requirements\nmacOS 26 or later on Apple silicon, with Ammonia installed and your Mac restarted after installing it.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

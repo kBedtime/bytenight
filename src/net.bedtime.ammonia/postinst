@@ -1,0 +1,17 @@
+#!/bin/sh
+# Runs Ammonia's own installer package, which this package carries unchanged.
+PATH=/usr/bin:/bin:/usr/sbin:/sbin
+[ "$1" = configure ] || exit 0
+
+# Ammonia's postinstall sets boot-args to just "-arm64e_preview_abi", dropping any others.
+# Keep whatever was there and add the flag once.
+OLD=$(nvram boot-args 2>/dev/null | cut -f 2-)
+installer -pkg /Library/bytenight/ammonia.pkg -target / || exit 1
+case " $OLD " in
+    *" -arm64e_preview_abi "*) NEW=$OLD ;;
+    *) NEW=$(echo "$OLD -arm64e_preview_abi" | sed 's/^ *//') ;;
+esac
+nvram boot-args="$NEW"
+
+echo "Ammonia is installed. Restart your Mac to finish: tweaks load after the restart."
+exit 0

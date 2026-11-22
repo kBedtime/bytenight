@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Bedtime's Repository
+Label: Bedtime's Repository
+Suite: stable
+Version: 1.0
+Codename: bytenight
+Architectures: darwin-amd64 darwin-arm64
+Components: main
+Description: Ammonia, Lisa and other tweaks for macOS
+Date: Sun, 22 Nov 2026 05:15:33 UTC
+MD5Sum:
+ cb3901c1fe6a5d0f0b71d9df718413a3 1800 Packages
+ 44ddc98fbe06f21e18ff51fd50529157 717 Packages.gz
+ dc634dd3f68153c75575c694eb874a22 867 Packages.bz2
+ b9d3bc011a058d505f1b8e58d8cb4798 796 Packages.xz
+ dac642243173797a040475d009b4f342 714 Packages.zst
+SHA256:
+ c4db55f8f18cbc98c5c91992bcd37f31da63a08397f3b212bb0bd1138930202b 1800 Packages
+ 26174133a00c09e4ecbebcba027f1f730760b948e5b04393291c8684d8e8ca1b 717 Packages.gz
+ ba5c27bae53ba36c6edec5a1d749efb64a09f4ee6f015e68f994118e64e887d5 867 Packages.bz2
+ 0ea2eefcfa14bc7d34a810fd3ef122a3b351a643cee742ed4ea2d5f5b2e6a921 796 Packages.xz
+ 5081cf76f7f78c6a3274b13e01898be76103f622e0c9e15ed0d8968c225d2e60 714 Packages.zst
+-----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQTPu9TMpbLDlNGEbWi1CEwcsYBlpQUCawJ6dRsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQtQhMHLGAZaXu/QD/SnYrqAT/6eBeafchuCCl
+UZHqcYC7lNhqxBpduv8p2NgBALYQlaaX8oEDwesXnKjy9CSAUvO4chVDIT2eH8Na
+orYK
+=eGpx
+-----END PGP SIGNATURE-----

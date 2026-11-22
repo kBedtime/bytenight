@@ -1,0 +1,6 @@
+#!/bin/sh
+PATH=/usr/bin:/bin:/usr/sbin:/sbin
+case "$1" in
+    remove|deconfigure) launchctl bootout system/com.bedtime.ammonia 2>/dev/null ;;
+esac
+exit 0
