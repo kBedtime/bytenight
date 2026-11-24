@@ -9,24 +9,24 @@ Codename: bytenight
 Architectures: darwin-amd64 darwin-arm64
 Components: main
 Description: Ammonia, Lisa and other tweaks for macOS
-Date: Tue, 24 Nov 2026 06:49:57 UTC
+Date: Tue, 24 Nov 2026 07:09:00 UTC
 MD5Sum:
- deda373d6db02be7320187ba043043bb 2392 Packages
- 6544c59aa543b4112728da1e26f74b8b 831 Packages.gz
- f55637c95f9ad7e4940afbc2054a7352 975 Packages.bz2
- ecf139ae7f3a8ff9bbb9a346a8772d72 892 Packages.xz
- e1b5ee9fb9a310d4527664112c70d80d 812 Packages.zst
+ 25b5fefc02478895cd9407e3a0e98584 3642 Packages
+ 10aee5fcd03c2ec1b90e64b9424ae632 1061 Packages.gz
+ 0af2d731e99260d1e094f78e8fa01358 1257 Packages.bz2
+ 045f873b128c1fc887d7b9b129194f29 1092 Packages.xz
+ 3a868dfbad8af787afc6980028991de6 1019 Packages.zst
 SHA256:
- 7a5f36e58219071cae4e243864c348fb2b1d2ff280508b5944f95d22cb703961 2392 Packages
- d5377b774241eb86dab97bbe8de44007c645da66e2df04b2a9fe5eb122492bf0 831 Packages.gz
- 228d50684982559bd0c8d4d189f086a4b803794fd45b267166aa52fbad59f8cd 975 Packages.bz2
- af565ad793e63b14b50eb7abd134ebaedb9cf2b00932d918ab5e333ff6be070a 892 Packages.xz
- 827abea6af3d38571714bceb5ef8912f9684c6b03403f77131076b0531c5168c 812 Packages.zst
+ ebd0ef2bb3fa5847370a9d047a9c11170d0d9d4bf42f52772d6aa78a0eda4688 3642 Packages
+ 1345db956f4bb4aa5d036c3f8f619b95d98386532d56458645d239332729d92e 1061 Packages.gz
+ cecec1fb2a244ef93d3fc300dcfea0f1e0f74478d412b0e3405bce49cf960103 1257 Packages.bz2
+ 0d28f8feb12e3ac2314a59086c7dea1c37feafa65fff4faa2061202cf5d019e9 1092 Packages.xz
+ d3b5ee8b89cc919ab0fd38aa3bc93b94ec58ace79c99845af183d52fc42d3e32 1019 Packages.zst
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQTPu9TMpbLDlNGEbWi1CEwcsYBlpQUCawUzlRsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMiwwLDMACgkQtQhMHLGAZaXYYwEAuBvIVwznTdAayvHMjqf3
-AyMTHUkColwZLY1kF8LDPSIA/ijRavL1yXUmXCs+zaAvV3IGZ0gipS5gL1JPe0+x
-DgkF
-=NANS
+iJEEARYKADkWIQTPu9TMpbLDlNGEbWi1CEwcsYBlpQUCawU4DBsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQtQhMHLGAZaVrSwEAi38HoRtl8vh9kVspXlrg
+FE8gJVMcntbQw6+UAsejgroA/jZuv0Q3zvkK+wfR8YRIF/vpmsoExq3w2hEmMbwD
+G8kP
+=HR47
 -----END PGP SIGNATURE-----

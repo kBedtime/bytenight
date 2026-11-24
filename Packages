@@ -70,3 +70,41 @@ Author: MachLiberation
 Name: Ammonia
 SileoDepiction: https://kbedtime.github.io/bytenight/depictions/net.bedtime.ammonia.json
 
+Package: net.bedtime.ammonia
+Version: 1.6.3-2
+Architecture: darwin-amd64
+Maintainer: kBedtime
+Installed-Size: 13824
+Depends: cy+os.macosx
+Filename: debs/net.bedtime.ammonia_1.6.3-2_darwin-amd64.deb
+Size: 13643576
+MD5sum: 0bb048aa9174993cf91871aaf4310212
+SHA1: 574df4dc259e477b0ae23cceaeb729e062b9099e
+SHA256: e0821d83c25a2daab1b40bda32cd13f939bc1611d737862afdb6d23bea41447e
+Section: System
+Homepage: https://github.com/MachLiberation/Ammonia
+Description: Tweak loader for macOS
+Author: MachLiberation
+Name: Ammonia
+SileoDepiction: https://kbedtime.github.io/bytenight/depictions/net.bedtime.ammonia.json
+SIPOffRequired: yes
+
+Package: net.bedtime.ammonia
+Version: 1.6.3-2
+Architecture: darwin-arm64
+Maintainer: kBedtime
+Installed-Size: 13824
+Depends: cy+os.macosx
+Filename: debs/net.bedtime.ammonia_1.6.3-2_darwin-arm64.deb
+Size: 13643572
+MD5sum: 2649765f7e7fb62dc81b80c0d77c223e
+SHA1: f90326ebdfac53fa55f223e68ecd1d70fdee3457
+SHA256: da003f59bd377ef0c98c303ff7f6bbd31e65d4f31fdb5d7c6a9344509689c32d
+Section: System
+Homepage: https://github.com/MachLiberation/Ammonia
+Description: Tweak loader for macOS
+Author: MachLiberation
+Name: Ammonia
+SileoDepiction: https://kbedtime.github.io/bytenight/depictions/net.bedtime.ammonia.json
+SIPOffRequired: yes
+

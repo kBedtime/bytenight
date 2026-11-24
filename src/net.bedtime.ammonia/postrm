@@ -10,6 +10,10 @@ case "$1" in
         rm -f "$CORE/ammonia" "$CORE/fridagum.dylib" "$CORE/liblibinfect.dylib" "$CORE/libopener.dylib"
         rmdir "$CORE/tweaks" "$CORE/gui" "$CORE/daemons" "$CORE" /private/var/ammonia 2>/dev/null
         pkgutil --forget net.bedtime.ammonia >/dev/null 2>&1
+        if [ -n "${CYDIA:-}" ]; then
+            set -- $CYDIA
+            printf '%s\n' 'finish:reboot' >&"$1"
+        fi
         echo "Ammonia is removed. Restart your Mac to finish."
         ;;
 esac

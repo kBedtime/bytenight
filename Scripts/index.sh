@@ -13,8 +13,8 @@ for key in $(ls debs/*.deb 2>/dev/null | sed 's|debs/\([^_]*\)_[^_]*_\(.*\)\.deb
     done | sort -k1,1 -V -r | tail -n +3 | cut -d' ' -f2 | xargs rm -f
 done
 
-# dpkg-scanpackages lowercases unknown field names; clients expect SileoDepiction.
-dpkg-scanpackages -m debs /dev/null 2>/dev/null | sed "s/^Sileodepiction:/SileoDepiction:/" > Packages
+# dpkg-scanpackages lowercases unknown field names; clients expect SileoDepiction and SIPOffRequired.
+dpkg-scanpackages -m debs /dev/null 2>/dev/null | sed -e "s/^Sileodepiction:/SileoDepiction:/" -e "s/^Sipoffrequired:/SIPOffRequired:/" > Packages
 gzip -9nkf Packages
 bzip2 -9kf Packages
 xz -9kf Packages

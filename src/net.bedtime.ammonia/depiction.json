@@ -11,6 +11,7 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "Ammonia is a tweak loader for macOS. Lisa needs it.\n\nThis installs the official release from [GitHub](https://github.com/MachLiberation/Ammonia/releases), unchanged.\n\nRestart after installing. Tweaks won't load until you do.\n\n### Good to know\n\nAmmonia adds the `-arm64e_preview_abi` boot arg and turns off library validation so apps can load tweaks. That makes your Mac less locked down, so only install tweaks you trust. Any boot args you already had are kept.\n\nRemoving Ammonia deletes it and its daemon, but leaves the boot arg and library validation as they are.",
+          "useRawFormat": false,
           "useSpacing": true
         }
       ]

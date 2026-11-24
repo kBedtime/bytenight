@@ -36,11 +36,13 @@ for ARCH in darwin-arm64 darwin-amd64; do
         echo "Depends: cy+os.macosx"
         echo "Homepage: https://github.com/$AMMONIA_GITHUB"
         echo "Description: Tweak loader for macOS"
+        echo "SIPOffRequired: yes"
         if [ -n "$REPO_URL" ]; then
             echo "SileoDepiction: $REPO_URL/depictions/$PACKAGE.json"
         fi
     } > "$STAGE/DEBIAN/control"
-    dpkg-deb -Zxz --root-owner-group -b "$STAGE" "$OUT" >/dev/null
+    chmod 644 "$STAGE/DEBIAN/control"
+    COPYFILE_DISABLE=1 dpkg-deb -Zxz --root-owner-group -b "$STAGE" "$OUT" >/dev/null
     rm -rf "$STAGE"
     echo "$OUT"
 done
