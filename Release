@@ -6,16 +6,16 @@ Codename: bytenight
 Architectures: darwin-amd64 darwin-arm64
 Components: main
 Description: Ammonia, Lisa and other tweaks for macOS
-Date: Tue, 24 Nov 2026 06:22:48 UTC
+Date: Tue, 24 Nov 2026 06:49:57 UTC
 MD5Sum:
- 51bb103395906ee3ca1adce561ea0cc1 2391 Packages
- 02130cb70f57612efd67bcc24853ff85 833 Packages.gz
- acf7dd60cb1797fe82c3fa7ec6cece64 982 Packages.bz2
- 1970bc1ca4a4b466a0ebfc3904c26efb 892 Packages.xz
- 2e5c8b8e5355e14c81d0e724de1af3db 825 Packages.zst
+ deda373d6db02be7320187ba043043bb 2392 Packages
+ 6544c59aa543b4112728da1e26f74b8b 831 Packages.gz
+ f55637c95f9ad7e4940afbc2054a7352 975 Packages.bz2
+ ecf139ae7f3a8ff9bbb9a346a8772d72 892 Packages.xz
+ e1b5ee9fb9a310d4527664112c70d80d 812 Packages.zst
 SHA256:
- 50e48dc42ea5b81d5fc77385541acf12238529f889fe0847538278d15972cd15 2391 Packages
- 6a66390174033df6963a4c8ce3b912e310b54b5d2e8ca0cb186e47c1ccbb5e3b 833 Packages.gz
- 2da5eaff12798dd171c34b60824fd1b1949ebc94aeb35b60568acade41eed68a 982 Packages.bz2
- c7c8bb448f7bee2544e6d41fe57545392dec08946c8839efdcfa382b58c427c2 892 Packages.xz
- 3fccd5a3e6fb2a172f04a868a7c3778ddb30e52fad0069251f93a8d111dcc9a2 825 Packages.zst
+ 7a5f36e58219071cae4e243864c348fb2b1d2ff280508b5944f95d22cb703961 2392 Packages
+ d5377b774241eb86dab97bbe8de44007c645da66e2df04b2a9fe5eb122492bf0 831 Packages.gz
+ 228d50684982559bd0c8d4d189f086a4b803794fd45b267166aa52fbad59f8cd 975 Packages.bz2
+ af565ad793e63b14b50eb7abd134ebaedb9cf2b00932d918ab5e333ff6be070a 892 Packages.xz
+ 827abea6af3d38571714bceb5ef8912f9684c6b03403f77131076b0531c5168c 812 Packages.zst
