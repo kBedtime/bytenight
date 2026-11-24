@@ -1,22 +1,4 @@
 Package: com.kbedtime.lisa
-Version: 1.0.0~b58
-Architecture: darwin-arm64
-Maintainer: kBedtime
-Installed-Size: 11544
-Pre-Depends: net.bedtime.ammonia
-Depends: firmware (>= 26.0)
-Filename: debs/com.kbedtime.lisa_1.0.0~b58_darwin-arm64.deb
-Size: 1515340
-MD5sum: 2d759a1c38a62906e5c3f3042d72d2c9
-SHA1: ee8cd92a859ec7388e9ac31600450fc118919c17
-SHA256: 59e0acf64487876e0bd3f9b3f4e8ed1b2fedb751430322c8a21e5e7f131f00c0
-Section: Themes
-Description: Theme every app on macOS with CSS
-Author: kBedtime
-Name: Lisa
-SileoDepiction: https://kbedtime.github.io/bytenight/depictions/com.kbedtime.lisa.json
-
-Package: com.kbedtime.lisa
 Version: 1.0.0~b59
 Architecture: darwin-arm64
 Maintainer: kBedtime
@@ -28,6 +10,25 @@ Size: 1722572
 MD5sum: 5d21687f7d70aa09b46adc01e52b2677
 SHA1: f6855b570b14b26db41aa7b6cf205a5c3b83d613
 SHA256: b335b18d9c993b4494c3d8807d52f66a05bdfa6432ac32c575e1b4f91c71e2f2
+Section: Themes
+Description: Theme every app on macOS with CSS
+Author: kBedtime
+Name: Lisa
+SileoDepiction: https://kbedtime.github.io/bytenight/depictions/com.kbedtime.lisa.json
+SIPOffRequired: yes
+
+Package: com.kbedtime.lisa
+Version: 1.0.0~b60
+Architecture: darwin-arm64
+Maintainer: kBedtime
+Installed-Size: 13168
+Pre-Depends: net.bedtime.ammonia
+Depends: firmware (>= 26.0)
+Filename: debs/com.kbedtime.lisa_1.0.0~b60_darwin-arm64.deb
+Size: 1735724
+MD5sum: a26cb3e5e3507d952d8765ebfd3133b9
+SHA1: 655e526b6f5beeb27b50c9848e3308e7243295f3
+SHA256: 8f8c4e101cdf30194fef3a2fcf6be1596d9ecc27042dc68e4b7965c34da0d953
 Section: Themes
 Description: Theme every app on macOS with CSS
 Author: kBedtime
@@ -78,10 +79,10 @@ Maintainer: kBedtime
 Installed-Size: 13824
 Depends: cy+os.macosx
 Filename: debs/net.bedtime.ammonia_1.6.3-2_darwin-amd64.deb
-Size: 13643572
-MD5sum: 7d4064c793bb3ab6ad4600355aaf5ef8
-SHA1: 0e1afe877cae405b8c0862057a3582d48cc29ca2
-SHA256: 09283e38b9b4fb465642be031380071ea1caff2b60e55a37b118285089ccaca6
+Size: 13643564
+MD5sum: ba593ab14b6901a62d2362a2c874a1af
+SHA1: f8ea43792d7e98251ba05793a8c21d92a6934522
+SHA256: d49551ae7ad29b353d58e90e02593802d87dcce37c581285b7cd0badba99995c
 Section: System
 Homepage: https://github.com/MachLiberation/Ammonia
 Description: Tweak loader for macOS
@@ -98,9 +99,9 @@ Installed-Size: 13824
 Depends: cy+os.macosx
 Filename: debs/net.bedtime.ammonia_1.6.3-2_darwin-arm64.deb
 Size: 13643576
-MD5sum: 446f13dd1a8888f214620fda1c04ee28
-SHA1: 372af6df2d091417367c313f8091cf7b1468ce19
-SHA256: a7bcae467a3dffbd047c776a0c2aecd07dab4b5778addb1ca60f01fb845598ff
+MD5sum: 5499e75d2e4d7da9361d98942cebea28
+SHA1: 79e4257e8f2b051ed364542aea6fbff82aeb79fa
+SHA256: 6d416c6d620e830df8a4eae81dfc3ad9d3ad3eb7144da5d04a8c27fd19e08d4a
 Section: System
 Homepage: https://github.com/MachLiberation/Ammonia
 Description: Tweak loader for macOS
